@@ -13,13 +13,16 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-color: black;
+  background-image: url("/static/laptopimage.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #131313;
 }
 
 header {
   height: 100vh;
   padding: 36px 100px;
-  background-image: url(./sai\ photo2\ .jpg);
+  background-image: url(/static/laptopimage.avif);
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
